@@ -1,0 +1,220 @@
+body{
+    background-color: rgba(187, 6, 6, 0.922);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600; /* Hace la fuente más gruesa */
+    border-radius: 10px; /* Establece bordes redondeados */
+}
+header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .logo img {
+    width: 50px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: 50px; /* Ajusta el tamaño del logo según tus necesidades */
+  }
+  
+  .page-title {
+    margin-left: 10px; /* Ajusta el espacio entre el logo y el título según tus necesidades */
+  }
+  @media (max-width: 600px) {
+    /* Estilos para dispositivos con ancho máximo de 600px */
+    body {
+      font-size: 14px;
+    }
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600; /* Hace la fuente más gruesa */
+    border-radius: 10px; /* Establece bordes redondeados */
+    color: white;
+  }
+  .search-bar {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    max-width: 300px; /* Ajusta la longitud máxima según tus necesidades */
+    margin: 0 auto;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .search-bar button[type="submit"] {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .search-bar input[type="text"]::placeholder {
+    color: #888888;
+  }
+  /***grid****/
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .grid-item {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .grid-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+/*footer*/ 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .grid-item {
+    text-align: center;
+  }
+  
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .image-name {
+    margin-top: 10px;
+  }
+  
+  .additional-text {
+    text-align: right;
+  }
+  .image {
+    max-width: 90px; /* Ajusta el ancho máximo según tus necesidades */
+    max-height: 90px; /* Ajusta la altura máxima según tus necesidades */
+    display: block; /* Asegura que la imagen se muestre como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+  }
+  .image-caption {
+    text-align: center;
+  }
+  
+  .search-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: red;
+  }
+  
+  .search-button i {
+    margin-right: 5px;
+    order: -1; /* Cambia el orden del icono */
+  }
+  .search-bar {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinea los elementos a la izquierda */
+    max-width: 300px; /* Ajusta la longitud máxima según tus necesidades */
+    margin: 0 auto;
+  }
+  
+  .search-bar input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .search-bar button[type="submit"] {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: red;
+    margin-left: 5px;
+  }
+  
+  .search-bar button[type="submit"] i {
+    margin-right: 5px;
+  }
+  .search-bar i {
+    color: red;
+  }
+
+  .popup-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    display: none;
+    z-index: 9999;
+  }
+  
+  .popup-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .popup-card .image-caption {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+    
+  
+  
+    
+  
